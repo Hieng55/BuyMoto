@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div class="moto">
+            <div class="s-moto">
+                <div class="moto-0">
+                    <img src="img/product-1.png" alt="" />
+                </div>
+                <div class="bu">
+                    <button dataColor="Trắng" dataImg="img/product-1.png" style="background-color: #babec2"></button>
+                    <button dataColor="Đỏ" dataImg="img/product-2.png" style="background-color: red"></button>
+                    <button dataColor="Xanh" dataImg="img/product-3.png" style="background-color: green"></button>
+                    <button dataColor="Xanh dương" dataImg="img/product-4.png" style="background-color: blue"></button>
+                    <button dataColor="Cam" dataImg="img/product-5.png" style="background-color: orange"></button>
+                </div>
+            </div>
+            <div class="text">
+                <div class="text-0">
+                    <h2>SH 350i 2023</h2>
+                    <h3>Giá: <span>0</span> VNĐ</h3>
+                </div>
+                <div class="version">
+                    <button dataprice="100000000">100 CC</button>
+                    <button dataprice="200000000">120 CC</button>
+                    <button dataprice="300000000">150 CC</button>
+                    <button dataprice="400000000">200 CC</button>
+                    <button dataprice="500000000">300 CC</button>
+                </div>
+            </div>
+            <div class="quantity">
+                <div class="quantity-0">
+                    <div class="plus"><i class="fa-solid fa-plus"></i></div>
+                    <span>1</span>
+                    <div class="minus"><i class="fa-solid fa-minus"></i></div>
+                </div>
+            </div>
+            <!-- <div class="buy">
+                <div class="buy-0">Thêm vào giỏ hàng</div>
+            </div> -->
+            <div class="buy">
+                <div class="buy-0" id="buyButton">Thêm vào giỏ hàng</div>
+            </div>
+            <div class="modal">
+                <div id="purchaseModal">
+                    <div class="attention">
+                        <img id="purchaseImage" src="img/product-1.png" alt="Ảnh xe đã chọn" />
+                        <h4>Tên sản phẩm: <span></span></h4>
+                        <p id="purchasePrice">Giá: <span></span> VNĐ</p>
+                        <div class="ver1">Phiên bản: <span></span> <span class="color"></span></div>
+                        <div class="quantity1">Sô lượng: <span></span></div>
+                        <button id="addToCartButton">Xem giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
